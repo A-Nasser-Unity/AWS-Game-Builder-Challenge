@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = -9.81f;       // Gravity force
     public float jumpHeight = 2f;        // Jump height
     public GameObject animatorObject;    // Reference to the GameObject containing the Animator
+    public AudioClip jumpSoundClip;      // Audio clip for the jump sound
+    public float jumpSoundVolume = 1f;   // Volume for the jump sound
 
     private CharacterController characterController;
     private Camera mainCamera;
@@ -14,18 +16,28 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;             // To check if the player is grounded
     private Animator animator;           // Reference to Animator
     private bool isDead = false;         // To track death state
+    private AudioSource audioSource;     // Reference to the existing AudioSource
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         mainCamera = Camera.main;          // Get the main camera
+
+        // Get the Animator component
         if (animatorObject != null)
         {
-            animator = animatorObject.GetComponent<Animator>(); // Get the Animator component from the child object
+            animator = animatorObject.GetComponent<Animator>();
         }
         else
         {
             Debug.LogError("Animator object is not assigned in the Inspector!");
+        }
+
+        // Get the AudioSource component
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("AudioSource component is missing on the player!");
         }
     }
 
@@ -95,6 +107,12 @@ public class PlayerMovement : MonoBehaviour
             if (animator != null)
             {
                 animator.SetBool("IsJumping", true); // Set Jumping animation
+            }
+
+            // Play the jump sound effect
+            if (jumpSoundClip != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(jumpSoundClip, jumpSoundVolume);
             }
         }
 

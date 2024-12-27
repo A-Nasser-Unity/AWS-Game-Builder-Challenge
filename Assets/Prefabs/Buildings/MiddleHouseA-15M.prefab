@@ -6860,9 +6860,10 @@ GameObject:
   - component: {fileID: 8349716212489725530}
   - component: {fileID: 8349716212489725528}
   - component: {fileID: 8349716212489725529}
+  - component: {fileID: 2449363086408435392}
   m_Layer: 0
   m_Name: Glass (4)
-  m_TagString: Untagged
+  m_TagString: Window
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6935,6 +6936,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2449363086408435392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349716212489725531}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7, y: 0.7, z: 0.8}
+  m_Center: {x: 0, y: 0, z: -0.0000019073486}
 --- !u!1 &8349716212497693110
 GameObject:
   m_ObjectHideFlags: 0
@@ -6946,9 +6968,10 @@ GameObject:
   - component: {fileID: 8349716212497693109}
   - component: {fileID: 8349716212497693099}
   - component: {fileID: 8349716212497693108}
+  - component: {fileID: 7151355228785673115}
   m_Layer: 0
   m_Name: Glass (2)
-  m_TagString: Untagged
+  m_TagString: Window
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7021,6 +7044,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7151355228785673115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349716212497693110}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7, y: 0.7, z: 0.8}
+  m_Center: {x: 0, y: 0, z: -0.0000019073486}
 --- !u!1 &8349716212524714179
 GameObject:
   m_ObjectHideFlags: 0
@@ -7032,9 +7076,10 @@ GameObject:
   - component: {fileID: 8349716212524714178}
   - component: {fileID: 8349716212524714176}
   - component: {fileID: 8349716212524714177}
+  - component: {fileID: 5260783398179802177}
   m_Layer: 0
   m_Name: Glass (1)
-  m_TagString: Untagged
+  m_TagString: Window
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7107,6 +7152,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5260783398179802177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349716212524714179}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7, y: 0.7, z: 0.8}
+  m_Center: {x: 0, y: 0, z: -0.0000019073486}
 --- !u!1 &8349716213191019713
 GameObject:
   m_ObjectHideFlags: 0
@@ -7179,8 +7245,8 @@ Transform:
   m_GameObject: {fileID: 8349716213365733228}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.48, y: 2.6, z: -6.23}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.486, y: 2.6, z: -6.2718}
+  m_LocalScale: {x: 0.9793409, y: 1, z: 1.0013}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8349716213191019712}
@@ -14760,9 +14826,10 @@ GameObject:
   - component: {fileID: 8349716214119822927}
   - component: {fileID: 8349716214119822925}
   - component: {fileID: 8349716214119822926}
+  - component: {fileID: 3731627538727321797}
   m_Layer: 0
   m_Name: Glass (3)
-  m_TagString: Untagged
+  m_TagString: Window
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14835,6 +14902,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3731627538727321797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349716214119822920}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7, y: 0.7, z: 0.8}
+  m_Center: {x: 0, y: 0, z: -0.0000019073486}
 --- !u!1 &8349716214208045524
 GameObject:
   m_ObjectHideFlags: 0

@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: game for AWS Game Builder Challenge 2025
+  m_text: project for AWS Game Builder Challenge 2025
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 505208380}
   - component: {fileID: 505208382}
   - component: {fileID: 505208381}
+  - component: {fileID: 505208384}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -528,6 +529,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505208379}
   m_CullTransparentMesh: 1
+--- !u!114 &505208384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505208379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a58036582c08e48a803afa8a2e6d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 505208381}
+  waveSpeed: 2
+  waveHeight: 5
+  characterSpacing: 0.5
 --- !u!1 &708341949
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +619,6 @@ GameObject:
   - component: {fileID: 1007296328}
   - component: {fileID: 1007296327}
   - component: {fileID: 1007296326}
-  - component: {fileID: 1007296325}
   m_Layer: 5
   m_Name: ButtonShadow
   m_TagString: Untagged
@@ -629,19 +645,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -80}
   m_SizeDelta: {x: 310, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1007296325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007296323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c997903c2484faf40b9426f4223e012f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: Instructions
 --- !u!114 &1007296326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,12 +1262,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635534366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eba918e9b5a9a974a8b95143d2d99c37, type: 3}
+  m_Script: {fileID: 11500000, guid: a076466572cd91749ac0b446e733a1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleSpeed: 0.02
-  maxScale: 1.05
-  minScale: 1.01
+  targetImage: {fileID: 1635534368}
+  minScale: 1
+  maxScale: 1.1
+  duration: 7
 --- !u!1 &1663328575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,8 +1278,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1663328577}
+  - component: {fileID: 1663328578}
   m_Layer: 0
-  m_Name: ResetTime
+  m_Name: ResetTimeAndAudioVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1296,6 +1301,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1663328578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663328575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb9ac3244dbd0143a1ea2672a4d8f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1779442674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,41 +1444,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779442674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c997903c2484faf40b9426f4223e012f, type: 3}
+  m_Script: {fileID: 11500000, guid: cfec162833f8f664a92b2753082174bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelName: Instructions
---- !u!1 &1852146903
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1852146905}
-  m_Layer: 0
-  m_Name: ResetAudio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1852146905
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852146903}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  loadButton: {fileID: 1779442677}
 --- !u!1 &1940201271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1940201273}
+  - component: {fileID: 1940201274}
   m_Layer: 0
   m_Name: ShowMouse
   m_TagString: Untagged
@@ -1493,6 +1481,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940201274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940201271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242ae8433e19394459066bf3ae676181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1503,6 +1503,5 @@ SceneRoots:
   - {fileID: 794878286}
   - {fileID: 1180487364}
   - {fileID: 78884305}
-  - {fileID: 1852146905}
   - {fileID: 1663328577}
   - {fileID: 1940201273}
