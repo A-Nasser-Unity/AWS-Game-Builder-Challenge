@@ -3,68 +3,56 @@ using TMPro;
 
 public class TextWaveEffect : MonoBehaviour
 {
-    [SerializeField] private TMP_Text textMeshPro;
-    [SerializeField] private float waveSpeed = 2f;
-    [SerializeField] private float waveHeight = 10f;
-    [SerializeField] private float characterSpacing = 0.5f;
-
-    private TMP_TextInfo textInfo;
-    private Vector3[] originalVertexPositions;
+    [SerializeField] private TMP_Text text;
+    [SerializeField] private float waveHeight = 1.0f;
+    [SerializeField] private float waveSpeed = 2.0f;
+    [SerializeField] private float waveLength = 0.5f;
+    [SerializeField] private bool autoAssignText = true;
 
     private void Start()
     {
-        if (textMeshPro == null)
-            textMeshPro = GetComponent<TMP_Text>();
-
-        textInfo = textMeshPro.textInfo;
-        CacheOriginalVertexPositions();
-    }
-
-    private void CacheOriginalVertexPositions()
-    {
-        textMeshPro.ForceMeshUpdate();
-        int totalVertices = textInfo.meshInfo[0].vertices.Length;
-        originalVertexPositions = new Vector3[totalVertices];
-        for (int i = 0; i < totalVertices; i++)
+        if (autoAssignText && text == null)
         {
-            originalVertexPositions[i] = textInfo.meshInfo[0].vertices[i];
+            text = GetComponent<TMP_Text>();
+        }
+
+        if (text == null)
+        {
+            Debug.LogError("TextWaveEffect: No TMP_Text component assigned!");
+            enabled = false;
+            return;
         }
     }
 
     private void Update()
     {
-        AnimateText();
-    }
+        text.ForceMeshUpdate();
+        var textInfo = text.textInfo;
 
-    private void AnimateText()
-    {
-        if (!textMeshPro.havePropertiesChanged)
+        for (int i = 0; i < textInfo.characterCount; i++)
         {
-            for (int i = 0; i < textInfo.characterCount; i++)
+            var charInfo = textInfo.characterInfo[i];
+
+            if (!charInfo.isVisible)
+                continue;
+
+            var verts = textInfo.meshInfo[charInfo.materialReferenceIndex].vertices;
+
+            for (int j = 0; j < 4; j++)
             {
-                TMP_CharacterInfo charInfo = textInfo.characterInfo[i];
-
-                if (!charInfo.isVisible)
-                    continue;
-
-                int materialIndex = charInfo.materialReferenceIndex;
-                int vertexIndex = charInfo.vertexIndex;
-                Vector3[] vertices = textInfo.meshInfo[materialIndex].vertices;
-
-                for (int j = 0; j < 4; j++)
-                {
-                    Vector3 orig = originalVertexPositions[vertexIndex + j];
-                    float wave = Mathf.Sin(Time.time * waveSpeed + i * characterSpacing) * waveHeight;
-                    vertices[vertexIndex + j] = orig + new Vector3(0, wave, 0);
-                }
+                int index = charInfo.vertexIndex + j;
+                Vector3 orig = verts[index];
+                verts[index] = orig + new Vector3(0,
+                    Mathf.Sin(Time.time * waveSpeed + orig.x * waveLength) * waveHeight,
+                    0);
             }
+        }
 
-            // Update the mesh
-            for (int i = 0; i < textInfo.meshInfo.Length; i++)
-            {
-                textInfo.meshInfo[i].mesh.vertices = textInfo.meshInfo[i].vertices;
-                textMeshPro.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
-            }
+        for (int i = 0; i < textInfo.meshInfo.Length; i++)
+        {
+            var meshInfo = textInfo.meshInfo[i];
+            meshInfo.mesh.vertices = meshInfo.vertices;
+            text.UpdateGeometry(meshInfo.mesh, i);
         }
     }
 }

@@ -471,7 +471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242.6, y: 70}
+  m_AnchoredPosition: {x: 212.09, y: 70}
   m_SizeDelta: {x: 45.2218, y: 100.5268}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823939200
@@ -1037,7 +1037,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "The town is under siege! Ghosts have captured the citizens, and you are
     their only hope.\r\n\r\nYour mission:\n\r\n-Collect all 10 red gems        to
-    free the captured citizens.\n\r\n-Upgrade your abilities by eating corns    .\r\n   
+    free the captured citizens.\n\r\n-Upgrade your abilities by eating corn    .\r\n   
     \nUse WASD to move and Spacebar to jump.\r\n\r\nStay alert!\n\r\n    -Escape
     from ghosts       chasing you.\n\r\n    -Avoid exploding pumpkins        that
     can end your journey.\r\n\r\nThe fate of the town lies in your hands. Good luck!"

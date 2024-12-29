@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class RandomChildAndAudio : MonoBehaviour
+public class OldRandomChildAndAudio : MonoBehaviour
 {
     [SerializeField] private AudioClip[] audioClips; // Array of audio clips
     [SerializeField] private float minWaitTime = 5f; // Minimum wait time between activations

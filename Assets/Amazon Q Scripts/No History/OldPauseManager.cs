@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement; // Required for scene management
 
-public class PauseManager : MonoBehaviour
+public class OldPauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private string levelToLoad = "LevelName"; // Name of the level to load

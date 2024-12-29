@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerWindowInteraction : MonoBehaviour
+public class OldPlayerWindowInteraction : MonoBehaviour
 {
     [SerializeField] private ParticleSystem breakEffect; // Assign your particle prefab in inspector
     [SerializeField] private AudioClip breakSound; // Assign your audio clip in inspector

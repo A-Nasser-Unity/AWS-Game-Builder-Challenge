@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class RandomSoundPlayer : MonoBehaviour
+public class XRandomSoundPlayer : MonoBehaviour
 {
     public List<AudioClip> soundClips; // List of audio clips to play
     public float minTime = 1f;         // Minimum random time interval

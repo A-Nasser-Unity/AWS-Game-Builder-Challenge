@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TemporaryDeactivator : MonoBehaviour
+public class OldTemporaryDeactivator : MonoBehaviour
 {
     [SerializeField] private List<GameObject> objectsToDeactivate = new List<GameObject>();
 

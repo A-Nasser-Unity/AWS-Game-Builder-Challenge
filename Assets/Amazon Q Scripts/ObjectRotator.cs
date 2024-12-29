@@ -2,19 +2,13 @@ using UnityEngine;
 
 public class ObjectRotator : MonoBehaviour
 {
-    [SerializeField] private float rotationSpeed = 50f;
-    [SerializeField] private bool rotateX = false;
-    [SerializeField] private bool rotateY = false;
-    [SerializeField] private bool rotateZ = false;
+    [Header("Rotation Settings")]
+    [SerializeField, Tooltip("Set the rotation speed in degrees per second for each axis (X, Y, Z)")]
+    private Vector3 rotationSpeed = new Vector3(0f, 90f, 0f);
 
     void Update()
     {
-        Vector3 rotation = new Vector3(
-            rotateX ? rotationSpeed : 0f,
-            rotateY ? rotationSpeed : 0f,
-            rotateZ ? rotationSpeed : 0f
-        ) * Time.deltaTime;
-
-        transform.Rotate(rotation);
+        // Rotate the object based on the rotation speed for each axis
+        transform.Rotate(rotationSpeed * Time.deltaTime);
     }
 }

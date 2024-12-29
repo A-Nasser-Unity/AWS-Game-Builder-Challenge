@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class RandomAudioPlayer : MonoBehaviour
+public class OldRandomAudioPlayer : MonoBehaviour
 {
     [SerializeField] private List<AudioClip> audioClips;
     [SerializeField] private float minTimeBetweenClips = 10f;
