@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 315935454}
   - component: {fileID: 315935456}
   - component: {fileID: 315935455}
+  - component: {fileID: 315935457}
   m_Layer: 5
   m_Name: InfoText
   m_TagString: Untagged
@@ -322,8 +323,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278836991
+  m_fontColor: {r: 1, g: 0.8722261, b: 0.035848916, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -392,6 +393,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315935453}
   m_CullTransparentMesh: 1
+--- !u!114 &315935457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315935453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e722b49f4d644dc4cbe79924c3439150, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkInterval: 1
+  startOnAwake: 1
 --- !u!1 &505208379
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,8 +418,7 @@ GameObject:
   - component: {fileID: 505208380}
   - component: {fileID: 505208382}
   - component: {fileID: 505208381}
-  - component: {fileID: 505208384}
-  - component: {fileID: 505208385}
+  - component: {fileID: 505208386}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -530,23 +544,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505208379}
   m_CullTransparentMesh: 1
---- !u!114 &505208384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505208379}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63a58036582c08e48a803afa8a2e6d0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMeshPro: {fileID: 505208381}
-  waveSpeed: 2
-  waveHeight: 5
-  characterSpacing: 0.5
---- !u!114 &505208385
+--- !u!114 &505208386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -555,14 +553,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 505208379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a04260a08e6c77446a0b6e7eb1fd3715, type: 3}
+  m_Script: {fileID: 11500000, guid: 051512eaaedb44149ad18029d3cedc89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 505208381}
-  waveHeight: 5
   waveSpeed: 3
-  waveLength: 0.5
-  autoAssignText: 0
+  waveHeight: 5
+  characterOffset: 0.2
 --- !u!1 &708341949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,7 +1202,7 @@ GameObject:
   - component: {fileID: 1635534367}
   - component: {fileID: 1635534369}
   - component: {fileID: 1635534368}
-  - component: {fileID: 1635534370}
+  - component: {fileID: 1635534371}
   m_Layer: 5
   m_Name: BackGround
   m_TagString: Untagged
@@ -1271,7 +1267,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635534366}
   m_CullTransparentMesh: 1
---- !u!114 &1635534370
+--- !u!114 &1635534371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1280,13 +1276,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635534366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a076466572cd91749ac0b446e733a1bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e5ff4584e106ea4790285b5f27b622f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetImage: {fileID: 1635534368}
   minScale: 1
   maxScale: 1.1
-  duration: 6
+  scaleSpeed: 0.5
 --- !u!1 &1663328575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,7 +1323,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1663328575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfb9ac3244dbd0143a1ea2672a4d8f18, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dd4aaf00130e4e458029e97af399adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1779442674
@@ -1462,11 +1457,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779442674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfec162833f8f664a92b2753082174bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 945b1cd19d8cb854f85d75315a6c4a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelName: Instructions
-  loadButton: {fileID: 1779442677}
 --- !u!1 &1940201271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,7 +1502,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940201271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 242ae8433e19394459066bf3ae676181, type: 3}
+  m_Script: {fileID: 11500000, guid: f5daa7e07a4e5554f90251b8e70ca446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

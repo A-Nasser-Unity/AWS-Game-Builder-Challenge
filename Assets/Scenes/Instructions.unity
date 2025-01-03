@@ -1360,11 +1360,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2130359146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfec162833f8f664a92b2753082174bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 945b1cd19d8cb854f85d75315a6c4a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelName: Level
-  loadButton: {fileID: 2130359149}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

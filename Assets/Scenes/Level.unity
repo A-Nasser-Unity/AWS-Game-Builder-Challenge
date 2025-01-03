@@ -7383,142 +7383,6 @@ Transform:
   - {fileID: 1860618664}
   m_Father: {fileID: 1190873519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &110519130
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 110519131}
-  - component: {fileID: 110519133}
-  - component: {fileID: 110519132}
-  m_Layer: 0
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &110519131
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110519130}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 209713428}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015500924, y: 0}
-  m_SizeDelta: {x: 220, y: 70}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &110519132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110519130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: SELECT
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4291588864
-  m_fontColor: {r: 0, g: 0.4509804, b: 0.8, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &110519133
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110519130}
-  m_CullTransparentMesh: 0
 --- !u!1 &114775094
 GameObject:
   m_ObjectHideFlags: 0
@@ -8119,7 +7983,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127569670}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -9129,7 +8993,7 @@ GameObject:
   - component: {fileID: 131215725}
   - component: {fileID: 131215724}
   - component: {fileID: 131215723}
-  - component: {fileID: 131215722}
+  - component: {fileID: 131215726}
   m_Layer: 0
   m_Name: Pumpkin (22)
   m_TagString: Untagged
@@ -9152,25 +9016,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &131215722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131215720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &131215723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9246,6 +9091,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131215720}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &131215726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131215720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &133251411
 GameObject:
   m_ObjectHideFlags: 0
@@ -10242,7 +10102,7 @@ GameObject:
   - component: {fileID: 155049229}
   - component: {fileID: 155049228}
   - component: {fileID: 155049227}
-  - component: {fileID: 155049226}
+  - component: {fileID: 155049230}
   m_Layer: 0
   m_Name: Pumpkin (25)
   m_TagString: Untagged
@@ -10265,25 +10125,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &155049226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155049224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &155049227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10359,6 +10200,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155049224}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &155049230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155049224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &165003098
 GameObject:
   m_ObjectHideFlags: 0
@@ -12064,7 +11920,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 200449419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02adc3c52a45ec245b8f1a79c5549e68, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f2f7686dbcb4a24f83f2c121071cbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 485002960}
@@ -12613,7 +12469,7 @@ GameObject:
   - component: {fileID: 206146329}
   - component: {fileID: 206146328}
   - component: {fileID: 206146327}
-  - component: {fileID: 206146326}
+  - component: {fileID: 206146330}
   m_Layer: 0
   m_Name: Pumpkin (3)
   m_TagString: Untagged
@@ -12636,25 +12492,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &206146326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206146324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &206146327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12730,144 +12567,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206146324}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
---- !u!1 &209713427
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 209713428}
-  - component: {fileID: 209713432}
-  - component: {fileID: 209713431}
-  - component: {fileID: 209713430}
-  - component: {fileID: 209713429}
-  m_Layer: 0
-  m_Name: HealthButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &209713428
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209713427}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 110519131}
-  - {fileID: 410680464}
-  m_Father: {fileID: 8445099405490769402}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -330}
-  m_SizeDelta: {x: 220, y: 70}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &209713429
+--- !u!114 &206146330
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209713427}
+  m_GameObject: {fileID: 206146324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.101960786}
-  m_EffectDistance: {x: 0, y: -8}
-  m_UseGraphicAlpha: 1
---- !u!114 &209713430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209713427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.8862745, g: 0.8862745, b: 0.8862745, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 209713431}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &209713431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209713427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19f84389193584d7ab2d7846ae4c8ede, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &209713432
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209713427}
-  m_CullTransparentMesh: 0
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!4 &212822095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318169427124856820, guid: c55c0413718e4b648a66fb8732fbadcf, type: 3}
@@ -12885,7 +12599,7 @@ GameObject:
   - component: {fileID: 213803249}
   - component: {fileID: 213803248}
   - component: {fileID: 213803247}
-  - component: {fileID: 213803246}
+  - component: {fileID: 213803250}
   m_Layer: 0
   m_Name: Pumpkin (7)
   m_TagString: Untagged
@@ -12908,25 +12622,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &213803246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213803244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &213803247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13002,6 +12697,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213803244}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &213803250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213803244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!4 &216782523 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318169427124856820, guid: c55c0413718e4b648a66fb8732fbadcf, type: 3}
@@ -13923,7 +13633,7 @@ GameObject:
   - component: {fileID: 246940982}
   - component: {fileID: 246940981}
   - component: {fileID: 246940980}
-  - component: {fileID: 246940979}
+  - component: {fileID: 246940983}
   m_Layer: 0
   m_Name: Pumpkin (11)
   m_TagString: Untagged
@@ -13946,25 +13656,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &246940979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246940977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &246940980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14040,6 +13731,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246940977}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &246940983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246940977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &249448014
 GameObject:
   m_ObjectHideFlags: 0
@@ -16427,7 +16133,7 @@ GameObject:
   - component: {fileID: 306204576}
   - component: {fileID: 306204575}
   - component: {fileID: 306204574}
-  - component: {fileID: 306204573}
+  - component: {fileID: 306204577}
   m_Layer: 0
   m_Name: Pumpkin (9)
   m_TagString: Untagged
@@ -16450,25 +16156,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &306204573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306204571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &306204574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16544,6 +16231,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306204571}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &306204577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306204571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!43 &311615207
 Mesh:
   m_ObjectHideFlags: 0
@@ -17676,7 +17378,7 @@ GameObject:
   - component: {fileID: 327979885}
   - component: {fileID: 327979884}
   - component: {fileID: 327979883}
-  - component: {fileID: 327979882}
+  - component: {fileID: 327979886}
   m_Layer: 0
   m_Name: GhostB (3)
   m_TagString: Enemy
@@ -17701,22 +17403,6 @@ Transform:
   - {fileID: 1522620087}
   m_Father: {fileID: 1897362572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &327979882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327979880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3.7
-  followDistance: 10
-  damageAmount: 10
-  attackCooldown: 5
 --- !u!82 &327979883
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17857,6 +17543,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &327979886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327979880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3.7
+  rotationSpeed: 5
+  followDistance: 10
+  damageAmount: 10
 --- !u!1 &329648367
 GameObject:
   m_ObjectHideFlags: 0
@@ -20053,6 +19755,51 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &349328571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349328573}
+  - component: {fileID: 349328572}
+  m_Layer: 0
+  m_Name: DebugRestartLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &349328572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349328571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc55a0a7220a941a443e4a4b4c3409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeUntilRestart: 5
+--- !u!4 &349328573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349328571}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &353468609
 GameObject:
   m_ObjectHideFlags: 0
@@ -20127,7 +19874,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353468609}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -22450,7 +22197,7 @@ GameObject:
   - component: {fileID: 401218309}
   - component: {fileID: 401218308}
   - component: {fileID: 401218307}
-  - component: {fileID: 401218306}
+  - component: {fileID: 401218310}
   m_Layer: 0
   m_Name: Pumpkin (13)
   m_TagString: Untagged
@@ -22473,25 +22220,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &401218306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401218304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &401218307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22567,6 +22295,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401218304}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &401218310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401218304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1001 &403147681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22731,142 +22474,6 @@ Transform:
   - {fileID: 165003099}
   m_Father: {fileID: 184065839}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &410680463
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 410680464}
-  - component: {fileID: 410680466}
-  - component: {fileID: 410680465}
-  m_Layer: 0
-  m_Name: HealthText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &410680464
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410680463}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 209713428}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -520.00006, y: -0.000030517578}
-  m_SizeDelta: {x: 650, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &410680465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410680463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: -full health
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 17
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &410680466
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410680463}
-  m_CullTransparentMesh: 1
 --- !u!43 &411396761
 Mesh:
   m_ObjectHideFlags: 0
@@ -26778,7 +26385,6 @@ Transform:
   - {fileID: 961739753}
   - {fileID: 3854595952799529581}
   - {fileID: 963321793}
-  - {fileID: 1889942739}
   - {fileID: 904560862}
   - {fileID: 1567791819}
   - {fileID: 1490045802}
@@ -27096,7 +26702,7 @@ GameObject:
   - component: {fileID: 487335383}
   - component: {fileID: 487335382}
   - component: {fileID: 487335381}
-  - component: {fileID: 487335380}
+  - component: {fileID: 487335384}
   m_Layer: 0
   m_Name: Pumpkin (23)
   m_TagString: Untagged
@@ -27119,25 +26725,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &487335380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487335378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &487335381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27213,6 +26800,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487335378}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &487335384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487335378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!43 &490735303
 Mesh:
   m_ObjectHideFlags: 0
@@ -31940,7 +31542,7 @@ GameObject:
   - component: {fileID: 590593723}
   - component: {fileID: 590593722}
   - component: {fileID: 590593721}
-  - component: {fileID: 590593720}
+  - component: {fileID: 590593724}
   m_Layer: 0
   m_Name: Pumpkin (20)
   m_TagString: Untagged
@@ -31963,25 +31565,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &590593720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590593718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &590593721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32057,6 +31640,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590593718}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &590593724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590593718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!43 &599116481
 Mesh:
   m_ObjectHideFlags: 0
@@ -33393,7 +32991,7 @@ GameObject:
   - component: {fileID: 647910933}
   - component: {fileID: 647910932}
   - component: {fileID: 647910931}
-  - component: {fileID: 647910930}
+  - component: {fileID: 647910934}
   m_Layer: 0
   m_Name: Pumpkin (5)
   m_TagString: Untagged
@@ -33416,25 +33014,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &647910930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647910928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &647910931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33510,6 +33089,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647910928}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &647910934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647910928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!43 &651301729
 Mesh:
   m_ObjectHideFlags: 0
@@ -34669,7 +34263,7 @@ GameObject:
   - component: {fileID: 688603370}
   - component: {fileID: 688603369}
   - component: {fileID: 688603368}
-  - component: {fileID: 688603367}
+  - component: {fileID: 688603371}
   m_Layer: 0
   m_Name: Pumpkin (18)
   m_TagString: Untagged
@@ -34692,25 +34286,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &688603367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688603365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &688603368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34786,6 +34361,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688603365}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &688603371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688603365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!4 &689835917 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318169427124856820, guid: c55c0413718e4b648a66fb8732fbadcf, type: 3}
@@ -35427,7 +35017,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712400629}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -36204,7 +35794,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742911259}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -37761,7 +37351,7 @@ GameObject:
   - component: {fileID: 779579480}
   - component: {fileID: 779579479}
   - component: {fileID: 779579478}
-  - component: {fileID: 779579477}
+  - component: {fileID: 779579481}
   m_Layer: 0
   m_Name: Pumpkin (10)
   m_TagString: Untagged
@@ -37784,25 +37374,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &779579477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779579475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &779579478
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37878,6 +37449,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779579475}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &779579481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779579475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!43 &781298611
 Mesh:
   m_ObjectHideFlags: 0
@@ -38147,7 +37733,7 @@ GameObject:
   - component: {fileID: 789552548}
   - component: {fileID: 789552547}
   - component: {fileID: 789552546}
-  - component: {fileID: 789552545}
+  - component: {fileID: 789552549}
   m_Layer: 0
   m_Name: Pumpkin (14)
   m_TagString: Untagged
@@ -38170,25 +37756,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &789552545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789552543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &789552546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38264,6 +37831,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789552543}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &789552549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789552543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &790271917
 GameObject:
   m_ObjectHideFlags: 0
@@ -42649,7 +42231,7 @@ GameObject:
   - component: {fileID: 852272928}
   - component: {fileID: 852272927}
   - component: {fileID: 852272926}
-  - component: {fileID: 852272925}
+  - component: {fileID: 852272929}
   m_Layer: 0
   m_Name: Pumpkin (21)
   m_TagString: Untagged
@@ -42672,25 +42254,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &852272925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852272923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &852272926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42766,6 +42329,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852272923}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &852272929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852272923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &853330805
 GameObject:
   m_ObjectHideFlags: 0
@@ -44581,7 +44159,7 @@ GameObject:
   - component: {fileID: 893797338}
   - component: {fileID: 893797337}
   - component: {fileID: 893797336}
-  - component: {fileID: 893797335}
+  - component: {fileID: 893797339}
   m_Layer: 0
   m_Name: GhostB (2)
   m_TagString: Enemy
@@ -44606,22 +44184,6 @@ Transform:
   - {fileID: 468931586}
   m_Father: {fileID: 1897362572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &893797335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893797333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3.7
-  followDistance: 10
-  damageAmount: 10
-  attackCooldown: 5
 --- !u!82 &893797336
 AudioSource:
   m_ObjectHideFlags: 0
@@ -44762,6 +44324,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &893797339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893797333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3.7
+  rotationSpeed: 5
+  followDistance: 10
+  damageAmount: 10
 --- !u!1001 &898067426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44968,11 +44546,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 904560861}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbc6ca9d24ea0844a86986ec93307069, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d09454bc7bbf1a4f9bd1fd59ba76785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiPanel: {fileID: 1758015707}
-  targetObject: {fileID: 1889942738}
+  targetObject: {fileID: 1758015707}
 --- !u!1 &905726584
 GameObject:
   m_ObjectHideFlags: 0
@@ -48494,7 +48071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiPanel: {fileID: 1758015707}
   jumpButton: {fileID: 958388836}
-  playerMovement: {fileID: 1114049200}
+  playerController: {fileID: 1114049208}
   newPlayerJumpHeight: 1.2
 --- !u!1 &959224364
 GameObject:
@@ -54064,7 +53641,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993881772}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -60474,7 +60051,7 @@ GameObject:
   - component: {fileID: 1069838089}
   - component: {fileID: 1069838088}
   - component: {fileID: 1069838087}
-  - component: {fileID: 1069838086}
+  - component: {fileID: 1069838090}
   m_Layer: 0
   m_Name: Pumpkin (19)
   m_TagString: Untagged
@@ -60497,25 +60074,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &1069838086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069838084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1069838087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60591,6 +60149,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069838084}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1069838090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069838084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1078987213
 GameObject:
   m_ObjectHideFlags: 0
@@ -60603,7 +60176,7 @@ GameObject:
   - component: {fileID: 1078987218}
   - component: {fileID: 1078987217}
   - component: {fileID: 1078987216}
-  - component: {fileID: 1078987215}
+  - component: {fileID: 1078987219}
   m_Layer: 0
   m_Name: Pumpkin (16)
   m_TagString: Untagged
@@ -60626,25 +60199,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1078987215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078987213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1078987216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60720,6 +60274,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078987213}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1078987219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078987213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1079309672
 GameObject:
   m_ObjectHideFlags: 0
@@ -61471,7 +61040,7 @@ GameObject:
   - component: {fileID: 1084462155}
   - component: {fileID: 1084462154}
   - component: {fileID: 1084462153}
-  - component: {fileID: 1084462152}
+  - component: {fileID: 1084462156}
   m_Layer: 0
   m_Name: Pumpkin (6)
   m_TagString: Untagged
@@ -61494,25 +61063,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1084462152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084462150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1084462153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61588,6 +61138,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084462150}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1084462156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084462150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!43 &1089066173
 Mesh:
   m_ObjectHideFlags: 0
@@ -61827,7 +61392,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092744811}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -65902,12 +65467,12 @@ GameObject:
   - component: {fileID: 1114049197}
   - component: {fileID: 1114049195}
   - component: {fileID: 1114049199}
-  - component: {fileID: 1114049200}
-  - component: {fileID: 1114049201}
-  - component: {fileID: 1114049202}
+  - component: {fileID: 1114049208}
   - component: {fileID: 1114049203}
-  - component: {fileID: 1114049206}
   - component: {fileID: 1114049207}
+  - component: {fileID: 1114049209}
+  - component: {fileID: 1114049210}
+  - component: {fileID: 1114049211}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Player
@@ -66053,56 +65618,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1114049200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114049194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc1de509468f06541b25def792346297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 4.5
-  rotationSpeed: 250
-  gravity: -9.81
-  jumpHeight: 0.7
-  animatorObject: {fileID: 7495005706294467948}
-  jumpSoundClip: {fileID: 8300000, guid: f5e1e4ed11db0404898cbffceb12aa7c, type: 3}
-  jumpSoundVolume: 0.3
---- !u!114 &1114049201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114049194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec0588f234ccb64fb54892ab5301b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fillImage: {fileID: 815800771}
-  collectSound: {fileID: 8300000, guid: 6805a3d4e53253c4789cea02a2d5d7a0, type: 3}
-  completionSound: {fileID: 8300000, guid: 4dd4a5609ff020043bca240a603a9b95, type: 3}
-  completionPanel: {fileID: 1758015707}
---- !u!114 &1114049202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114049194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb885845f6cbee419f9cc92118c4c96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemCountText: {fileID: 1652839866}
-  gemSound: {fileID: 8300000, guid: 4dd4a5609ff020043bca240a603a9b95, type: 3}
-  winSceneName: BeforeWin
 --- !u!114 &1114049203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66121,27 +65636,6 @@ MonoBehaviour:
   gameOverPanel: {fileID: 3533672728380864617}
   hurtSound: {fileID: 8300000, guid: d5e3855daaf08ed40a4b6a2c5e917a7b, type: 3}
   hurtEffectPrefab: {fileID: 5471750216266900656, guid: 9eceee38e26d08541b131e5d1aec323c, type: 3}
---- !u!114 &1114049206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114049194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a9882de1c7450b44a7a4f22ce41febd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 1114049199}
-  audioClips:
-  - {fileID: 8300000, guid: 8dd29ce2ac05f8c44a1165e9d70ac0b7, type: 3}
-  - {fileID: 8300000, guid: 794b715a7adf2c543bb4e3a7ca923c8a, type: 3}
-  - {fileID: 8300000, guid: ef2ccf327c800774c94d6b56e56b8bfc, type: 3}
-  - {fileID: 8300000, guid: 308187fcc1b764148a993ac4b99558f7, type: 3}
-  minDelay: 10
-  maxDelay: 20
-  initialDelay: 5
 --- !u!114 &1114049207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66156,6 +65650,78 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakEffect: {fileID: 3239550883492736730, guid: a160591ea0f27674596cb9231843ddc7, type: 3}
   breakSound: {fileID: 8300000, guid: 9230a3cf2244b5e4b830178113d85701, type: 3}
+--- !u!114 &1114049208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114049194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a798cd48c0fe3469f0e84c5d9325f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4.5
+  rotationSpeed: 250
+  gravity: -9.81
+  jumpHeight: 0.7
+  animatorObject: {fileID: 7495005706294467948}
+  jumpSoundClip: {fileID: 8300000, guid: f5e1e4ed11db0404898cbffceb12aa7c, type: 3}
+  jumpSoundVolume: 0.3
+--- !u!114 &1114049209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114049194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b2cda2b69ea3547a0a820a80eb7db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemCollectSound: {fileID: 8300000, guid: 4dd4a5609ff020043bca240a603a9b95, type: 3}
+  gemCountText: {fileID: 1652839866}
+  nextSceneName: BeforeWin
+--- !u!114 &1114049210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114049194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211cf4dfb2961274aac88639f0a86173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressFillImage: {fileID: 815800771}
+  completionPanel: {fileID: 1758015707}
+  collectionSound: {fileID: 8300000, guid: 6805a3d4e53253c4789cea02a2d5d7a0, type: 3}
+  completionSound: {fileID: 8300000, guid: 4dd4a5609ff020043bca240a603a9b95, type: 3}
+  progressIncrement: 0.1
+--- !u!114 &1114049211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114049194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff578ba2aa90b84cb2e1868181ea138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1114049199}
+  audioClips:
+  - {fileID: 8300000, guid: 8dd29ce2ac05f8c44a1165e9d70ac0b7, type: 3}
+  - {fileID: 8300000, guid: 794b715a7adf2c543bb4e3a7ca923c8a, type: 3}
+  - {fileID: 8300000, guid: ef2ccf327c800774c94d6b56e56b8bfc, type: 3}
+  - {fileID: 8300000, guid: 308187fcc1b764148a993ac4b99558f7, type: 3}
+  minDelay: 10
+  maxDelay: 20
+  initialDelay: 5
 --- !u!43 &1117965126
 Mesh:
   m_ObjectHideFlags: 0
@@ -68792,7 +68358,7 @@ GameObject:
   - component: {fileID: 1203927557}
   - component: {fileID: 1203927556}
   - component: {fileID: 1203927555}
-  - component: {fileID: 1203927554}
+  - component: {fileID: 1203927558}
   m_Layer: 0
   m_Name: Pumpkin (8)
   m_TagString: Untagged
@@ -68815,25 +68381,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1203927554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203927552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1203927555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68909,6 +68456,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203927552}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1203927558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203927552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1204712254
 GameObject:
   m_ObjectHideFlags: 0
@@ -69161,7 +68723,7 @@ GameObject:
   - component: {fileID: 1208625899}
   - component: {fileID: 1208625898}
   - component: {fileID: 1208625897}
-  - component: {fileID: 1208625896}
+  - component: {fileID: 1208625900}
   m_Layer: 0
   m_Name: Pumpkin (24)
   m_TagString: Untagged
@@ -69184,25 +68746,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &1208625896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208625894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1208625897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69278,6 +68821,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208625894}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1208625900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208625894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1209575981
 GameObject:
   m_ObjectHideFlags: 0
@@ -73718,7 +73276,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369254556}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -74920,7 +74478,7 @@ GameObject:
   - component: {fileID: 1384639709}
   - component: {fileID: 1384639708}
   - component: {fileID: 1384639707}
-  - component: {fileID: 1384639706}
+  - component: {fileID: 1384639710}
   m_Layer: 0
   m_Name: Pumpkin (12)
   m_TagString: Untagged
@@ -74943,25 +74501,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1384639706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384639704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1384639707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75037,6 +74576,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384639704}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1384639710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384639704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!4 &1390078466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1978981229876463239, guid: 038545d1b523a5f409d83d239836bd27, type: 3}
@@ -75508,7 +75062,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418243307}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -79176,13 +78730,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1434079386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14458be4724ae9a43928d54d3fbda3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ef5e28a99104154fb3a5761d85f31fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiPanel: {fileID: 1758015707}
-  activateButton: {fileID: 1434079389}
   objectsToActivate:
   - {fileID: 1490045801}
+  panelToHide: {fileID: 1758015707}
 --- !u!1 &1434932929
 GameObject:
   m_ObjectHideFlags: 0
@@ -82481,7 +82034,6 @@ GameObject:
   - component: {fileID: 1538800210}
   - component: {fileID: 1538800209}
   - component: {fileID: 1538800213}
-  - component: {fileID: 1538800214}
   - component: {fileID: 1538800215}
   m_Layer: 5
   m_Name: PeisonCanvas
@@ -82674,29 +82226,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1538800214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538800207}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 690afc03084acbf40936440ecc84415a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: d1ab6c1f239070b478fb60b3e2b80da1, type: 3}
-  - {fileID: 8300000, guid: 32fc2d42ab7ee284a82b27f9ded5af95, type: 3}
-  - {fileID: 8300000, guid: 5094d634ec7b9f04796b45d016d75042, type: 3}
-  - {fileID: 8300000, guid: 0be95b38e0e0a79459307100cd05cf0d, type: 3}
-  - {fileID: 8300000, guid: 17419101ab31724448fde13d97a646d3, type: 3}
-  - {fileID: 8300000, guid: f4c920c558accca448b13b11589f3405, type: 3}
-  minWaitTime: 5
-  maxWaitTime: 10
-  initialDelay: 5
-  childActiveTime: 3
 --- !u!114 &1538800215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82844,7 +82373,7 @@ GameObject:
   - component: {fileID: 1559290513}
   - component: {fileID: 1559290512}
   - component: {fileID: 1559290511}
-  - component: {fileID: 1559290510}
+  - component: {fileID: 1559290514}
   m_Layer: 0
   m_Name: Pumpkin (15)
   m_TagString: Untagged
@@ -82867,25 +82396,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1559290510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559290508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1559290511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82961,6 +82471,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559290508}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1559290514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559290508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1560159041
 GameObject:
   m_ObjectHideFlags: 0
@@ -82973,7 +82498,7 @@ GameObject:
   - component: {fileID: 1560159046}
   - component: {fileID: 1560159045}
   - component: {fileID: 1560159044}
-  - component: {fileID: 1560159043}
+  - component: {fileID: 1560159047}
   m_Layer: 0
   m_Name: Pumpkin (27)
   m_TagString: Untagged
@@ -82996,25 +82521,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1560159043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560159041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1560159044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83090,6 +82596,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560159041}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1560159047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560159041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1562225448
 GameObject:
   m_ObjectHideFlags: 0
@@ -85053,7 +84574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1591083895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7ddffc23b4c3945b407ec6612b3ec1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3277453ad6020da42a99bb93411b9f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skyboxMaterials:
@@ -85064,6 +84585,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 97fca95f33987e548be9dd7c03cb1a96, type: 2}
   - {fileID: 2100000, guid: 0e51b3d2f16325549987d8d6070de3a1, type: 2}
   - {fileID: 2100000, guid: 416ee80c6a09f9b4fb43d9aa43f4a057, type: 2}
+  changeDelay: 0
 --- !u!1 &1602890952
 GameObject:
   m_ObjectHideFlags: 0
@@ -87043,7 +86565,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683010359}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -87348,13 +86870,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688452013}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -40.33, y: 5.45, z: 47}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.14, y: 5.45, z: 47}
   m_LocalScale: {x: 6, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1235496357}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1688452015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89033,7 +88555,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725507862}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -92427,11 +91949,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1772906978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14458be4724ae9a43928d54d3fbda3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ef5e28a99104154fb3a5761d85f31fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiPanel: {fileID: 1758015707}
-  activateButton: {fileID: 1772906981}
   objectsToActivate:
   - {fileID: 1133637664927465455}
   - {fileID: 1515759410}
@@ -92443,6 +91963,7 @@ MonoBehaviour:
   - {fileID: 196519722}
   - {fileID: 274682126}
   - {fileID: 690702558}
+  panelToHide: {fileID: 1758015707}
 --- !u!43 &1773162611
 Mesh:
   m_ObjectHideFlags: 0
@@ -94600,7 +94121,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806182711}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -125259,50 +124780,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1889942738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1889942739}
-  - component: {fileID: 1889942741}
-  m_Layer: 0
-  m_Name: HideMouse
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1889942739
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889942738}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 473624716}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1889942741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889942738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d09454bc7bbf1a4f9bd1fd59ba76785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1890061401 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1978981229876463239, guid: 038545d1b523a5f409d83d239836bd27, type: 3}
@@ -127354,7 +126831,7 @@ GameObject:
   - component: {fileID: 1967054919}
   - component: {fileID: 1967054918}
   - component: {fileID: 1967054917}
-  - component: {fileID: 1967054916}
+  - component: {fileID: 1967054920}
   m_Layer: 0
   m_Name: Pumpkin (4)
   m_TagString: Untagged
@@ -127377,25 +126854,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1967054916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967054914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &1967054917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -127471,6 +126929,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967054914}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &1967054920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967054914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &1968191118
 GameObject:
   m_ObjectHideFlags: 0
@@ -127545,7 +127018,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968191118}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -137946,7 +137419,7 @@ GameObject:
   - component: {fileID: 2068433660}
   - component: {fileID: 2068433659}
   - component: {fileID: 2068433658}
-  - component: {fileID: 2068433657}
+  - component: {fileID: 2068433661}
   m_Layer: 0
   m_Name: GhostA (3)
   m_TagString: Enemy
@@ -137971,22 +137444,6 @@ Transform:
   - {fileID: 923259181}
   m_Father: {fileID: 1897362572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2068433657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068433655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3.7
-  followDistance: 10
-  damageAmount: 10
-  attackCooldown: 5
 --- !u!82 &2068433658
 AudioSource:
   m_ObjectHideFlags: 0
@@ -138127,6 +137584,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2068433661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068433655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3.7
+  rotationSpeed: 5
+  followDistance: 10
+  damageAmount: 10
 --- !u!43 &2071385261
 Mesh:
   m_ObjectHideFlags: 0
@@ -138518,7 +137991,7 @@ GameObject:
   - component: {fileID: 2087051474}
   - component: {fileID: 2087051473}
   - component: {fileID: 2087051472}
-  - component: {fileID: 2087051471}
+  - component: {fileID: 2087051475}
   m_Layer: 0
   m_Name: Pumpkin (28)
   m_TagString: Untagged
@@ -138541,25 +138014,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &2087051471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2087051469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &2087051472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -138635,6 +138089,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087051469}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &2087051475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087051469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1 &2089782168
 GameObject:
   m_ObjectHideFlags: 0
@@ -138647,7 +138116,7 @@ GameObject:
   - component: {fileID: 2089782173}
   - component: {fileID: 2089782172}
   - component: {fileID: 2089782171}
-  - component: {fileID: 2089782170}
+  - component: {fileID: 2089782174}
   m_Layer: 0
   m_Name: Pumpkin (26)
   m_TagString: Untagged
@@ -138670,25 +138139,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &2089782170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089782168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &2089782171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -138764,6 +138214,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089782168}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &2089782174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089782168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!4 &2089784798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318169427124856820, guid: c55c0413718e4b648a66fb8732fbadcf, type: 3}
@@ -139503,7 +138968,7 @@ GameObject:
   - component: {fileID: 2115600916}
   - component: {fileID: 2115600915}
   - component: {fileID: 2115600914}
-  - component: {fileID: 2115600913}
+  - component: {fileID: 2115600917}
   m_Layer: 0
   m_Name: GhostA (2)
   m_TagString: Enemy
@@ -139528,22 +138993,6 @@ Transform:
   - {fileID: 691950184}
   m_Father: {fileID: 1897362572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2115600913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115600911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3.7
-  followDistance: 10
-  damageAmount: 10
-  attackCooldown: 5
 --- !u!82 &2115600914
 AudioSource:
   m_ObjectHideFlags: 0
@@ -139684,6 +139133,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2115600917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115600911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3.7
+  rotationSpeed: 5
+  followDistance: 10
+  damageAmount: 10
 --- !u!43 &2121195207
 Mesh:
   m_ObjectHideFlags: 0
@@ -139861,7 +139326,7 @@ GameObject:
   - component: {fileID: 2124996261}
   - component: {fileID: 2124996260}
   - component: {fileID: 2124996259}
-  - component: {fileID: 2124996258}
+  - component: {fileID: 2124996262}
   m_Layer: 0
   m_Name: Pumpkin (17)
   m_TagString: Untagged
@@ -139884,25 +139349,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2124996258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124996256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &2124996259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -139978,6 +139424,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124996256}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &2124996262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124996256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!4 &2125099520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1978981229876463239, guid: 038545d1b523a5f409d83d239836bd27, type: 3}
@@ -140199,7 +139660,7 @@ GameObject:
   - component: {fileID: 2135719980}
   - component: {fileID: 2135719979}
   - component: {fileID: 2135719978}
-  - component: {fileID: 2135719977}
+  - component: {fileID: 2135719981}
   m_Layer: 0
   m_Name: Pumpkin (2)
   m_TagString: Untagged
@@ -140222,25 +139683,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59294755}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &2135719977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135719975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
-  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!65 &2135719978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140316,6 +139758,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135719975}
   m_Mesh: {fileID: 4300000, guid: d8ac000da200ecf42b42c5e665217ecb, type: 3}
+--- !u!114 &2135719981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135719975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
 --- !u!1001 &2135737061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144477,7 +143934,7 @@ GameObject:
   - component: {fileID: 1854714430036348400}
   - component: {fileID: 1854714430035250992}
   - component: {fileID: 1854714430037675473}
-  - component: {fileID: 1854714430037675474}
+  - component: {fileID: 1854714430037675475}
   m_Layer: 0
   m_Name: Pumpkin (1)
   m_TagString: Untagged
@@ -144521,7 +143978,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6, y: 0.6, z: 0.6}
   m_Center: {x: 0.020700201, y: 0.22530618, z: 0.0014299527}
---- !u!114 &1854714430037675474
+--- !u!114 &1854714430037675475
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144530,16 +143987,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1854714430037185008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a055ef009d4bdbe49b84cd23871106b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a66962b20aabc04e9af02f8194f5eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 20
-  destroyAfterDamage: 1
-  canDamageMultipleTimes: 0
-  damageInterval: 1
-  hitEffect: {fileID: 289883465594929218, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
+  damageAmount: 10
+  hitEffectPrefab: {fileID: 3678321084770012175, guid: b5fb6249122fc044b871fd28601cfa4c, type: 3}
   hitSound: {fileID: 8300000, guid: a583bd2d41cf9c3488ef53eb34ff5161, type: 3}
-  soundVolume: 1
 --- !u!114 &1922885186443542674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146163,7 +145616,7 @@ GameObject:
   - component: {fileID: 6995801473203208601}
   - component: {fileID: 6995801473203208603}
   - component: {fileID: 6995801473203208602}
-  - component: {fileID: 6995801473203208604}
+  - component: {fileID: 6995801473203208605}
   m_Layer: 0
   m_Name: GhostB (1)
   m_TagString: Enemy
@@ -146328,7 +145781,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5, y: 0.9, z: 0.5}
   m_Center: {x: 0, y: 0.4, z: 0}
---- !u!114 &6995801473203208604
+--- !u!114 &6995801473203208605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146337,13 +145790,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6995801473203208597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.7
+  moveSpeed: 3.7
+  rotationSpeed: 5
   followDistance: 10
   damageAmount: 10
-  attackCooldown: 5
 --- !u!1 &6995801473215848704
 GameObject:
   m_ObjectHideFlags: 0
@@ -146486,8 +145939,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7495005706294296908}
   - component: {fileID: 7495005706301763238}
-  - component: {fileID: 7495005706301763240}
   - component: {fileID: 7495005706301763239}
+  - component: {fileID: 7495005706301763240}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -146623,7 +146076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7495005706294467948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc739f82edcf21439241d4984d03e5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 948b090236e54f944977d4cbcd84c860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &7639371327025574798
@@ -146966,7 +146419,7 @@ GameObject:
   - component: {fileID: 7710020497343724793}
   - component: {fileID: 7710020497343724795}
   - component: {fileID: 7710020497343724794}
-  - component: {fileID: 7710020497343724796}
+  - component: {fileID: 7710020497343724797}
   m_Layer: 0
   m_Name: GhostA (1)
   m_TagString: Enemy
@@ -147131,7 +146584,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5, y: 0.9, z: 0.5}
   m_Center: {x: 0, y: 0.4, z: 0}
---- !u!114 &7710020497343724796
+--- !u!114 &7710020497343724797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147140,13 +146593,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7710020497343724789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.7
+  moveSpeed: 3.7
+  rotationSpeed: 5
   followDistance: 10
   damageAmount: 10
-  attackCooldown: 5
 --- !u!1 &7842327283513866426
 GameObject:
   m_ObjectHideFlags: 0
@@ -147200,7 +146653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiPanel: {fileID: 1758015707}
   speedButton: {fileID: 7639371327025574798}
-  playerMovement: {fileID: 1114049200}
+  playerController: {fileID: 1114049208}
   newPlayerSpeed: 7
 --- !u!224 &7958457640244156397
 RectTransform:
@@ -147373,7 +146826,6 @@ RectTransform:
   - {fileID: 1613741043}
   - {fileID: 1434079387}
   - {fileID: 2137138526}
-  - {fileID: 209713428}
   - {fileID: 1204712255}
   m_Father: {fileID: 1758015711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -147592,7 +147044,7 @@ GameObject:
   - component: {fileID: 8712095483880648280}
   - component: {fileID: 8712095483880648289}
   - component: {fileID: 8712095483880648288}
-  - component: {fileID: 8712095483880648290}
+  - component: {fileID: 8712095483880648291}
   m_Layer: 0
   m_Name: GhostC
   m_TagString: Enemy
@@ -147718,7 +147170,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5, y: 0.9, z: 0.5}
   m_Center: {x: 0, y: 0.4, z: 0}
---- !u!114 &8712095483880648290
+--- !u!114 &8712095483880648291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147727,13 +147179,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8712095483880648287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eeb85c0d5118554088909576cdcabe4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8af2e99b5c3df1549991943e4db7cbf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.7
+  moveSpeed: 3.7
+  rotationSpeed: 5
   followDistance: 10
   damageAmount: 10
-  attackCooldown: 5
 --- !u!4 &8712095483942905582
 Transform:
   m_ObjectHideFlags: 0
@@ -147997,6 +147449,7 @@ SceneRoots:
   - {fileID: 236052458}
   - {fileID: 473624716}
   - {fileID: 1494261693}
+  - {fileID: 349328573}
   - {fileID: 1620075389}
   - {fileID: 607214767}
   - {fileID: 33180390}
