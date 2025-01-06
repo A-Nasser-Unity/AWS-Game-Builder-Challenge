@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a30ee243ac0ca14cb1fb03d59e28c49
+guid: 4b1a3c558492b3a478d0b1f9e01e414d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Kraash
+  - THE BOLD FONT
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

@@ -2,13 +2,13 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class GameObjectsActivator : MonoBehaviour
+public class ActivateObjects : MonoBehaviour
 {
     [SerializeField]
-    private List<GameObject> objectsToDeactivate = new List<GameObject>();
+    private List<GameObject> objectsToControl = new List<GameObject>();
 
     [SerializeField]
-    private float deactivationDuration = 5f;
+    private float deactivationDuration = 3f;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class GameObjectsActivator : MonoBehaviour
     private IEnumerator DeactivateAndActivateObjects()
     {
         // Deactivate all objects
-        foreach (GameObject obj in objectsToDeactivate)
+        foreach (GameObject obj in objectsToControl)
         {
             if (obj != null)
             {
@@ -26,11 +26,11 @@ public class GameObjectsActivator : MonoBehaviour
             }
         }
 
-        // Wait for the specified duration
+        // Wait for specified duration
         yield return new WaitForSeconds(deactivationDuration);
 
         // Activate all objects
-        foreach (GameObject obj in objectsToDeactivate)
+        foreach (GameObject obj in objectsToControl)
         {
             if (obj != null)
             {

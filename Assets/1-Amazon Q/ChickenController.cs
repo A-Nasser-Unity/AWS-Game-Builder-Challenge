@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class ChickenController : MonoBehaviour
 {
     public float moveSpeed = 5f;          // Movement speed
     public float rotationSpeed = 700f;   // Rotation speed
@@ -127,8 +127,9 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         if (animator != null)
         {
-            animator.SetTrigger("Die");
+            animator.SetTrigger("IsDead");
         }
+        enabled = false;
     }
 
     public void Respawn()
@@ -138,5 +139,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger("Respawn");
         }
+        var playerHealth = GetComponent<PlayerHealth>();
+        if (playerHealth != null)
+        {
+            playerHealth.ResetHealth();
+        }
+        enabled = true;
     }
 }

@@ -5,7 +5,7 @@ public class SpeedButtonScript : MonoBehaviour
 {
     public GameObject uiPanel; // Reference to the UI panel to deactivate
     public Button speedButton; // Reference to the button itself
-    public PlayerController playerController; // Reference to the player movement script
+    public ChickenController chickenController; // Reference to the chicken controller script
     public float newPlayerSpeed = 10f; // Desired player speed
 
     void Start()
@@ -17,12 +17,14 @@ public class SpeedButtonScript : MonoBehaviour
     void OnSpeedButtonClicked()
     {
         // Change the player's speed
-        if (playerController != null)
+        if (chickenController != null)
         {
-            playerController.moveSpeed = newPlayerSpeed;
+            chickenController.moveSpeed = newPlayerSpeed;
         }
 
         // Deactivate the panel
+        // Disable the button so it doesn't show again
+        speedButton.gameObject.SetActive(false);
         if (uiPanel != null)
         {
             uiPanel.SetActive(false);

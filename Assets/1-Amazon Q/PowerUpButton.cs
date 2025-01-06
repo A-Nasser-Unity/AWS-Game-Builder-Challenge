@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonActivator : MonoBehaviour
+public class PowerUpButton : MonoBehaviour
 {
     [Header("Objects to Activate")]
     [SerializeField] private GameObject[] objectsToActivate;

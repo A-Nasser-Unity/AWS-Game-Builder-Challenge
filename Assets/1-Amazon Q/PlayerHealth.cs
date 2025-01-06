@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // Required for level loading
+using System.Collections; // Add this to use IEnumerator
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -15,17 +17,19 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private AudioClip hurtSound;
     [SerializeField] private GameObject hurtEffectPrefab;
 
-    private PlayerController playerController;
+    [Header("Level Transition")]
+    [SerializeField] private float timeBeforeLevelChange = 3f; // Time in seconds before level change
+    [SerializeField] private string nextLevelName = "NextLevel"; // Name of the next level to load
+
+    private ChickenController chickenController;
     private bool isDead = false;
 
     private void Start()
     {
         // Initialize health and UI
         currentHealth = maxHealth;
+        chickenController = GetComponent<ChickenController>();
         UpdateHealthUI();
-
-        // Get reference to PlayerController
-        playerController = GetComponent<PlayerController>();
 
         // Make sure game over panel is hidden at start
         if (gameOverPanel != null)
@@ -69,7 +73,6 @@ public class PlayerHealth : MonoBehaviour
         if (hurtEffectPrefab != null)
         {
             Instantiate(hurtEffectPrefab, transform.position, Quaternion.identity);
-            Debug.Log("Hurt effect prefab spawned.");
         }
         else
         {
@@ -104,11 +107,23 @@ public class PlayerHealth : MonoBehaviour
             gameOverPanel.SetActive(true);
         }
 
-        // Call Die method on PlayerController
-        if (playerController != null)
+        // Call Die method on ChickenController
+        if (chickenController != null)
         {
-            playerController.Die();
+            chickenController.Die();
         }
+
+        // Start the level transition after the delay
+        StartCoroutine(LevelTransitionCoroutine());
+    }
+
+    private IEnumerator LevelTransitionCoroutine()
+    {
+        // Wait for the specified amount of time before loading the next level
+        yield return new WaitForSeconds(timeBeforeLevelChange);
+
+        // Load the next level by name
+        SceneManager.LoadScene(nextLevelName);
     }
 
     public float GetHealthPercentage()

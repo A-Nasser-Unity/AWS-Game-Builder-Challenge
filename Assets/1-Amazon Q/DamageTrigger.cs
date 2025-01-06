@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyDamageDealer : MonoBehaviour
+public class DamageTrigger : MonoBehaviour
 {
     [SerializeField] private float damageAmount = 10f;
     [SerializeField] private GameObject hitEffectPrefab;
@@ -20,16 +20,16 @@ public class EnemyDamageDealer : MonoBehaviour
                 // Spawn hit effect
                 if (hitEffectPrefab != null)
                 {
-                    Instantiate(hitEffectPrefab, transform.position, Quaternion.identity);
+                    Instantiate(hitEffectPrefab, other.transform.position, Quaternion.identity);
                 }
 
-                // Play sound effect
+                // Play hit sound
                 if (hitSound != null)
                 {
                     AudioSource.PlayClipAtPoint(hitSound, transform.position);
                 }
 
-                // Destroy this enemy
+                // Destroy the object after effects are complete
                 Destroy(gameObject);
             }
         }

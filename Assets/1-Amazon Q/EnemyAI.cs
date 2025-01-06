@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnemyController : MonoBehaviour
+public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float rotationSpeed = 5f;

@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class GemCollector : MonoBehaviour
+public class CollectGems : MonoBehaviour
 {
     [SerializeField] private AudioClip gemCollectSound;
     [SerializeField] private TextMeshProUGUI gemCountText;

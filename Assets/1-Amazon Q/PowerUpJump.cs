@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class JumpButtonScript : MonoBehaviour
+public class PowerUpJump : MonoBehaviour
 {
     public GameObject uiPanel; // Reference to the UI panel to deactivate
     public Button jumpButton; // Reference to the button itself
-    public PlayerController playerController; // Reference to the player controller script
+    public ChickenController chickenController; // Reference to the chicken controller script
     public float newPlayerJumpHeight = 10f; // Desired player jump height
 
     void Start()
@@ -17,9 +17,9 @@ public class JumpButtonScript : MonoBehaviour
     void OnJumpButtonClicked()
     {
         // Change the player's jump height
-        if (playerController != null)
+        if (chickenController != null)
         {
-            playerController.jumpHeight = newPlayerJumpHeight;
+            chickenController.jumpHeight = newPlayerJumpHeight;
         }
 
         // Deactivate the panel
