@@ -30,7 +30,7 @@ public class AudioSourceToggle : MonoBehaviour
         if (targetObject != null && audioSource != null)
         {
             // Toggle AudioSource based on target object's active state
-            audioSource.enabled = !targetObject.activeSelf;
+            audioSource.mute = targetObject.activeSelf;
         }
     }
 }
